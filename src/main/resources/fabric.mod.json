@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tungtungclient",
+  "version": "${version}",
+  "name": "TungTungClient",
+  "description": "Pastel client UI and HUD starter for Minecraft 1.20.1 Fabric.",
+  "authors": [
+    "TungTungClient"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tungtung.client.TungTungClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "tungtungclient.mixins.json"
+  ]
+}
